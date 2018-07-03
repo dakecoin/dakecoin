@@ -1,0 +1,33 @@
+# /etc/conf.d/DakeCoind: config file for /etc/init.d/DakeCoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/DakeCoin/DakeCoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/DakeCoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/DakeCoind.pid"
+
+# Where to write DakeCoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/DakeCoind"
+
+# User and group to own DakeCoind process
+#BITCOIND_USER="DakeCoin"
+#BITCOIND_GROUP="DakeCoin"
+
+# Path to DakeCoind executable
+#BITCOIND_BIN="/usr/bin/DakeCoind"
+
+# Nice value to run DakeCoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for DakeCoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

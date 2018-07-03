@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=DakeCoin Core
+Comment=Connect to the DakeCoin P2P Network
+Comment[de]=Verbinde mit dem DakeCoin peer-to-peer Netzwerk
+Comment[fr]=DakeCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=DakeCoin, eşten eşe kriptografik sanal para birimi
+Exec=DakeCoin-qt %u
+Terminal=false
+Type=Application
+Icon=DakeCoin128
+MimeType=x-scheme-handler/DakeCoin;
+Categories=Office;Finance;
+StartupWMClass=DakeCoin-qt

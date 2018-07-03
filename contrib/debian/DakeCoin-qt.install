@@ -1,0 +1,6 @@
+usr/local/bin/DakeCoin-qt usr/bin
+share/pixmaps/DakeCoin32.xpm usr/share/pixmaps
+share/pixmaps/DakeCoin16.xpm usr/share/pixmaps
+share/pixmaps/DakeCoin128.png usr/share/pixmaps
+debian/DakeCoin-qt.desktop usr/share/applications
+debian/DakeCoin-qt.protocol usr/share/kde4/services/

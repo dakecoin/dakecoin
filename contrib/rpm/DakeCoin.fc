@@ -1,0 +1,8 @@
+/usr/bin/DakeCoin-cli		--	gen_context(system_u:object_r:DakeCoin_exec_t,s0)
+/usr/sbin/DakeCoind		--	gen_context(system_u:object_r:DakeCoin_exec_t,s0)
+/usr/lib(64)?/DakeCoin/DakeCoind		--	gen_context(system_u:object_r:DakeCoin_exec_t,s0)
+
+/etc/DakeCoin(/.*)?		gen_context(system_u:object_r:DakeCoin_conf_t,s0)
+/var/lib/DakeCoin(/.*)?		gen_context(system_u:object_r:DakeCoin_var_lib_t,s0)
+
+(/var)?/run/DakeCoind(/.*)?   gen_context(system_u:object_r:DakeCoin_var_run_t,s0)
